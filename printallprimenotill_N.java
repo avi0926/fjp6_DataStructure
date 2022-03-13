@@ -10,6 +10,7 @@ public class printallprimenotill_N{
             for(int j=2; j*j<=i; j++){
                 if(i%j == 0){
                     flag = 1;
+                    break;
                 }
             }
             if(flag == 0){
@@ -23,4 +24,3 @@ public class printallprimenotill_N{
 // 2. Take as input "low", the lower limit of range.
 // 3. Take as input "high", the higher limit of range.
 // 4. For the range print all the primes numbers between low and high (both included).
-git remote add origin https://github.com/avi0926/fjp6_DataStructure.git
